@@ -44,7 +44,10 @@ List any software, libraries, or dependencies that users need to have installed 
 - Python 3.x
 - NLTK
 - Transformers library (e.g., Hugging Face Transformers)
-- Other dependencies...
+- Pandas
+- Numpy
+- Matplotilib
+- ...
 
 ### Installation
 

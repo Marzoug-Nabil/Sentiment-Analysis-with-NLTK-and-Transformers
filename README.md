@@ -10,14 +10,8 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Data](#data)
-- [Training](#training)
-- [Inference](#inference)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Introduction
 
@@ -44,10 +38,7 @@ List any software, libraries, or dependencies that users need to have installed 
 - Python 3.x
 - NLTK
 - Transformers library (e.g., Hugging Face Transformers)
-- Pandas
-- Numpy
-- Matplotilib
-- ...
+- Other dependencies...
 
 ### Installation
 
@@ -57,8 +48,15 @@ Provide step-by-step instructions on how to install your project and its depende
 # Clone the repository
 git clone https://github.com/Marzoug-Nabil/Sentiment-Analysis-with-NLTK-and-Transformers
 
+
+
 # Navigate to the project directory
 cd Sentiment-Analysis-with-NLTK-and-Transformers
 
 # Install dependencies
 pip install -r requirements.txt
+
+```
+
+## Data
+This project uses [the Amazon Food Review Dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews/code?datasetId=18&sortBy=dateCreated), which contains a collection of user reviews for various food products available on Amazon. The dataset includes text reviews along with corresponding sentiment labels, allowing us to perform sentiment analysis classification.
